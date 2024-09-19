@@ -19,7 +19,7 @@ A simple, responsive music player built using HTML and CSS. This project demonst
 
 ## Preview
 
-![Music Player Preview](link-to-screenshot-or-demo)
+![Music Player Preview]([link-to-screenshot-or-demo](https://ibb.co/LkDKwVY))
 
 ## Installation
 
