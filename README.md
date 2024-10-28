@@ -1,3 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Regular Expression</p>
+<button onclick="myFunction()">Try it</button>
+<script>
+function myFunction(){
+var str="All these are not possible using HTML!"; var n=str.search(/possible/i);
+document.write("<br>"+n+"<br>");
+var res=str.replace(/possible/i,"POSSIBLE"); 
+document.write("<br>"+res+"<br>");
+var patt=/e/;
+document.write("<br>"+patt.test(str)+"<br>");
+}
+</script>
+</body>
+</html
+
+
 # music player
 
 A Pen created on CodePen.io. Original URL: [https://codepen.io/Ashking92/pen/oNrKYRJ](https://codepen.io/Ashking92/pen/oNrKYRJ).
