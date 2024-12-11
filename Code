@@ -1,0 +1,1 @@
+const mongoose = require("mongoose");//Scheme for collectionconst studentSchema = new mongoose.Schema({ name: String, rollNo: String, class: String, contactNo: String, email: String}, { collection: "students" });//Exporting schememodule.exports = mongoose.model("student", studentSchema);
