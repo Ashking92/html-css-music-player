@@ -1,3 +1,18 @@
+import re
+line="horse are taller than dog"
+searchobj = re. search(r'(.*)are (.*?).*',line,re.M)
+if searchobj:
+    print("searchobj.group:",searchobj.group())
+    print ("searchobj.group:",searchobj.group(1))
+else:
+    print("nothing found")
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html>
 <body>
